@@ -66,12 +66,12 @@ hr{
     border-bottom: 2px #74adbb50 dotted;
   }
 
-.container {
+.container{
     box-sizing: border-box;
-    margin: 3rem 3rem;
+    margin: 2rem 3rem 3rem 3rem;
 }
 
-.title {
+.title{
     width: 26rem;
     border-bottom: 2px #74adbb50 dotted;
 }
@@ -80,17 +80,17 @@ hr{
     margin-bottom: 2rem;
 }
 
-.nepal {
+.nepal{
   margin: 0rem 3rem 0rem 0rem;
   transition: 1s;
 }
 
-.nepal:hover {
+.nepal:hover{
   transform: rotate(359deg);
   transition: 3s ease-in-out;
 }
 
-.fancyini {
+.fancyini{
   background-color: yellow;
   padding: 0.5rem 0.5rem;
   border-radius: 4px;
@@ -98,19 +98,26 @@ hr{
   transition: 1s;
 }
 
-.fancyini:hover {
+.fancyini:hover{
   background-color:cyan;
   margin: 1rem 3rem;
   transition: 2s;
   display: inline-block;
 }
 
-header {
-	position: sticky;
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
 	top: 0px;
-    padding: 1rem 0rem 2rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
 	opacity: 1;
 	background-color: #172214;
+}
+
+nav{
+    text-align: right;
 }
 
 }
