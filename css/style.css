@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1;
+    background-color: #172214;
+
+h1, h2, h3{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    margin-bottom: -0.5rem;
+}
+
+h1{
+    color: #74adbb;
+}
+
+h2, h3{
+    font-style: italic;
+    color: #94be84;
+}
+
+h4, p, ol, ul, a:link, a:visited, a:hover{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+a:link{
+    color: #968732;
+}
+
+a:visited{
+    color: #408d6d;
+}
+
+a:hover{
+    color: #669136;
+}
+
+p, ol, ul{
+    color: #eaeee2;
+}
+
+blockquote, tr{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+blockquote{
+    color: #408d6d;
+}
+
+th{
+    color: #968732;
+}
+
+td{
+    color: #408d6d;
+}
+
+hr{
+    width: 26rem;
+    border-bottom: 2px #74adbb50 dotted;
+  }
+
+.container {
+    box-sizing: border-box;
+    margin: 3rem 3rem;
+}
+
+.title {
+    width: 26rem;
+    border-bottom: 2px #74adbb50 dotted;
+}
+
+.section{
+    margin-bottom: 2rem;
+}
+
+.nepal {
+  margin: 0rem 3rem 0rem 0rem;
+  transition: 1s;
+}
+
+.nepal:hover {
+  transform: rotate(359deg);
+  transition: 3s ease-in-out;
+}
+
+.fancyini {
+  background-color: yellow;
+  padding: 0.5rem 0.5rem;
+  border-radius: 4px;
+  box-shadow: 2px 1px 4px 0px rgba(0,0,0,0.5);
+  transition: 1s;
+}
+
+.fancyini:hover {
+  background-color:cyan;
+  margin: 1rem 3rem;
+  transition: 2s;
+  display: inline-block;
+}
+
+header {
+	position: sticky;
+	top: 0px;
+    padding: 1rem 0rem 2rem 0rem;
+	opacity: 1;
+	background-color: #172214;
+}
+
+}

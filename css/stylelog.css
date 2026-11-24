@@ -1,0 +1,160 @@
+html{
+  font-size: 100%;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1;
+  h1{
+    color:rgb(60, 130, 85);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.986rem;
+  }
+  h2{
+    color:rgb(35, 90, 70);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.488rem; 
+  }
+  h3{
+    color:rgb(150, 45, 45);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.074rem;
+  }
+  h4{
+    font-size: 1.728rem;
+  }
+  p{
+    color:rgb(50, 50, 50);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  a:link{
+    color:rgb(50, 50, 200);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1;
+    text-decoration: none;
+  }
+  a:visited{
+    color:rgb(115, 75, 180);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1;
+  }
+  a:hover, a:active{
+    color:rgb(150, 45, 45);
+  }
+  hr{
+    border: 10;
+    width: 95%;
+    color:rgb(150, 45, 45);
+    height: 2px;
+  }
+  th{
+    color:rgb(100, 100, 110);
+  }
+  td{
+    color:rgb(130, 130, 135);
+  }
+  /* shamari help me make the css1 folder for autograding */
+}
+
+.container {
+  box-sizing: border-box;
+  width: 56rem;
+  margin: 3rem auto;
+}
+
+.title {
+  width: 26rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px #bbbbbb dotted;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.borderedit {
+  border: 2px #3232C8 dotted;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.5);
+}
+
+.rectangle {
+  height: 2rem;
+  width: 5rem;
+  margin: 2rem;
+  background-color: yellow;
+  border: 2px dotted red;
+
+}
+
+.form1 {
+  transform: translate(5rem, 1rem);
+  background-color: cyan;
+  border: 2px dotted blue;
+}
+
+.form1:hover {
+  transform: rotate(79deg);
+  transition: 3s ease-in-out;
+}
+
+.form2 {
+  transform: rotate(53deg);
+  background-color: orange;
+  border: 2px dotted purple;
+  transition: 1s;
+}
+
+.form2:hover {
+  background-color: orangered;
+  transition: 3s ease-in-out;
+}
+
+.form3 {
+  transform: translate(0rem, 3rem) scale(1.5);
+  background-color: grey;
+  border: 2px dotted black;
+  transition: 1s;
+}
+
+.form3:hover {
+  transform: translate(3rem, 5rem);
+  transition: 3s;
+}
+
+.nepal {
+  margin: 0rem 3rem 0rem 0rem;
+  transition: 1s;
+}
+
+.nepal:hover {
+  transform: rotate(359deg);
+  transition: 3s ease-in-out;
+}
+
+.fancyini {
+  background-color: yellow;
+  padding: 1rem 1rem;
+  margin: 2rem 4rem;
+  border-radius: 8px;
+  box-shadow: 2px 1px 4px 0px rgba(0,0,0,0.5);
+  transition: 1s;
+}
+
+.fancyini:hover {
+  background-color:cyan;
+  transform: scale(1.2);
+  transition: 2s;
+  display: inline-block;
+}
+
+.eb-garamond-headers {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
